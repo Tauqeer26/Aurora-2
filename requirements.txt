@@ -38,7 +38,7 @@ six==1.15.0
 sqlparse==0.4.1
 tensorboard
 tensorboard-plugin-wit
-tensorflow-cpu==2.2.0
+tensorflow-cpu==2.5.0
 tensorflow-estimator
 termcolor
 typing-extensions==3.7.4.3
