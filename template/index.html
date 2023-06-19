@@ -13,7 +13,7 @@
  {% csrf_token %}
  <!-- <div class="col-md-4 col-sm-4"><label for="fname">Please Upload Your data:</label> </div> <input name="filePath" type="file"><br><br>-->
  <br>
- <div class="container rounded-top"  style="background-color: #8d676771;">
+ <div class="container rounded-pill"  style="background-color: #8d676771;">
   <div class="row">
       <div class="col-md-6 p-4">
           <div class="rounded p-4 mb-3"">
@@ -44,17 +44,20 @@
               </div>
           </div>
       </div>
-      <div class="col-md-6 p-4 text-center">
-        <div class="card text-center">
+      <div class="col-md-6 p-4 text-center ">
+        <div class="card text-center rounded-pill">
           <div class="card-body text-center"> <!-- Removed classes 'd-flex' and 'align-items-start', added 'text-center' -->
-            <div class="image-preview" id="imagePreview" style="width: 565px; height: 150px; overflow: hidden;">
+            <div class="image-preview rounded-pill" id="imagePreview" style="width: 565px; height: 150px; overflow: hidden;">
               <img src="" alt="Image Preview" class="image-preview__image" style="object-fit: contain; width: 100%; height: 100%;">
-              <span class="image-preview__default-text">Image Preview</span>
+              
+              <span class="image-preview__default-text ">Image Preview</span>
             </div>
-            <button type="submit" class="btn btn-light rounded-pill align-content-lg-center " style="width: 565px; overflow: hidden;" id="btn-hide">SUBMIT</button>
+            
           </div>
         </div>
+        
       </div>
+      <button type="submit" class="btn btn-light rounded-pill align-content-lg-center align-items-center" style="width: 565px; overflow: hidden;" id="btn-hide">SUBMIT</button>
       
       
       
